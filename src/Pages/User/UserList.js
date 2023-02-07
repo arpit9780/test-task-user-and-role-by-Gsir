@@ -69,7 +69,7 @@ export const UserList = () => {
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        {userDataArr.length ? userDataArr?.map((row, i) => (
+                        {userDataArr?.length ? userDataArr?.map((row, i) => (
                             <TableRow
                                 key={i}
                                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
