@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  border: #282c34 solid 5px;
+  padding: 15px;
 }
 
 .App-logo {
@@ -26,6 +28,36 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.form-style {
+  justify-content: center;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.add-button {
+  text-align: end;
+}
+
+.heading {
+  border-left: 5px solid dodgerblue;
+  padding: 10px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 @keyframes App-logo-spin {
